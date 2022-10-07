@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <title>Лабораторная работа 1</title>
+    <title>Лабораторная работа 2 авторизация</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="login.css">  <!--подключение стилей css -->
     <link rel="preconnect" href="https://fonts.googleapis.com"> <!--подключение шрифтов -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet"> 
-    
 </head>
-<header>
-    <p><div id = "catalog_cat">КАТАЛОГ ПОРОД КОШЕК</div>
-    <div id = "main_search">Главная
-    Поиск
-    Войти</div></p>
-</header>
+
 <body>
+    <header>
+        <p><div id = "catalog_cat">КАТАЛОГ ПОРОД КОШЕК</div>
+        <div id = "main_search">Главная
+        Поиск
+        Войти</div></p>
+    </header>
+
     <form action="handler.php">
-        <p><b>Войти в учетную запись</b></p>
+        <p><h3>Войти в учетную запись</h3></p>
         <p>Логин</p>
         <p><input type="text" size="40"></p>
         <p>Пароль</p>
         <p><input type="text" size="40"></p>
-        <p><input type="submit"></p>
+        <p><input type="submit" value="Войти"></p>
+        <p><input type="checkbox" name="a" value="запомнить_меня"> Запомнить меня</p>
        </form>
+
+       <footer>
+        <p>Контактная информация</p>
+        <p>Горностаева Екатерина 211-362</p>
+        <p>Почта: kate.gornostaeva@inbox.ru </p>
+        <p>Обратная связь</p>
+    </footer>
 </body>
-<footer>
-    <p>Контактная информация</p>
-    <p>Горностаева Екатерина 211-362</p>
-    <p>Почта: kate.gornostaeva@inbox.ru </p>
-    <p>Обратная связь</p>
-</footer>
