@@ -52,16 +52,9 @@ h3{
     font-size: 20px;
 }
 
-A{
-    color: #40859c;
-}
-
-A:visited{
-    color: #52409c;
-}
-
-A:active{
-    color: #9c4040;
+a{
+    text-decoration: none;
+    color: #0000;
 }
 
 #catalog_cat{

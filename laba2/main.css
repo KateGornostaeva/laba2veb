@@ -70,24 +70,28 @@ td, th {
     border: 2px solid #3e2d26; /* Параметры рамки */
 }
 
-A{
-    color: #40859c;
-}
-
-A:visited{
-    color: #52409c;
-}
-
-A:active{
-    color: #9c4040;
-}
-
 #catalog_cat{
     font-size: 40px;
+    color: #000;
 }
 
 #main_search{
     font-size: 25px;
     text-align: right;
+    color: #000;
 }
 
+A{
+    color: #40859c;
+    text-decoration: none;
+}
+
+A:visited{
+    color: #52409c;
+    text-decoration: none;
+}
+
+A:active{
+    color: #9c4040;
+    text-decoration: none;
+}
